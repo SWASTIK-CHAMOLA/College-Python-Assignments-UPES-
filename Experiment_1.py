@@ -13,3 +13,8 @@ print("HELLO EVERYONE !!")
 print("HELLO\nWORLD ")
 print("HELLO\n        WORLD ")
 print("Rohit’ s date of birth is 12\05\1999")
+
+'''3  Declare a string variable called x and assign it the value “Hello”. 
+            Print out the value of x '''
+x ="Hello"
+print(x)
