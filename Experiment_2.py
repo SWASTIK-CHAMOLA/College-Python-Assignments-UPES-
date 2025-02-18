@@ -13,3 +13,15 @@ print("x + y", x + y)
 print("x * y", x * y)
 print("x / y", x / y)  # For float division
 print("x - y", x - y)
+
+''' 2. Write a Program where the radius is taken as input to compute the area of a  circle.'''
+a = int(input("Enter the radius of the circle: "))
+b = 3.14 * a**2
+print(f"The area of the circle is: {b}")
+
+''' 3. Write a Python program to solve (x+y)*(x+y) 
+Test data : x = 4 , y = 3 
+Expected output: 49 '''
+x = int(input("enter value of x: "))
+y = int(input("enter value of y: "))
+print("output: ",{(x+y)*(x+y)})
