@@ -32,3 +32,18 @@ a = float(input("Enter the length of side a: "))
 b = float(input("Enter the length of side b: "))
 c = (a**2 + b**2)**0.5
 print("The length of the hypotenuse is: ",c)
+
+''' 5. Write a program to find simple interest. '''
+#program to find simple interest
+p = float(input("enter principle"))
+r = float(input("enter rate"))
+t = float(input("enter time"))
+si = p*r*t/100
+print("simple intrest is: ",si)
+
+''' 6. Write a program to find area of triangle when length of sides are given. '''
+# program to find area of triangle when length of sides are given.
+a = float(input("Enter the length of base"))
+b = float(input("Enter the length of height"))
+area = 0.5*(a*b)
+print("area is: ",area)
