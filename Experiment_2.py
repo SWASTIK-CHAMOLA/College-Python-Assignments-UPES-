@@ -42,8 +42,18 @@ si = p*r*t/100
 print("simple intrest is: ",si)
 
 ''' 6. Write a program to find area of triangle when length of sides are given. '''
-# program to find area of triangle when length of sides are given.
+
 a = float(input("Enter the length of base"))
 b = float(input("Enter the length of height"))
 area = 0.5*(a*b)
 print("area is: ",area)
+
+''' Write a program to convert given seconds into hours, minutes and remaining seconds.'''
+
+a = int(input("Enter time in seconds: "))
+hour = a // 3600 
+remaining_seconds = a % 3600  
+minute = remaining_seconds // 60
+second = remaining_seconds % 60  
+
+print(f"The time is {hour} hours, {minute} minutes, and {second} seconds")
