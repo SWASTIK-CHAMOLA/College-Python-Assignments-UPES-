@@ -40,3 +40,28 @@ else:
     greatest = num3
 
 print(f"The greatest number is: {greatest}")
+
+''' 5. Check whether the quadratic equation has real roots or imaginary roots. Display the roots. '''
+
+a = int(input("enter a value "))
+b = int(input("enter b value "))
+c = int(input("enter c value "))
+print(f"b value {b} a value {a} c value {c}")
+k =  b**2 -  4*a*c
+if k >= 0: 
+    k = k ** 0.5 
+    x1 = (-b + k) / (2 * a)
+    x2 = (-b - k) / (2 * a)
+    print(f"The roots are real and are: {x1} and {x2}")
+else:  
+    real_part = -b / (2 * a)
+    imaginary_part = (-k) ** 0.5 / (2 * a)
+
+'''6. Find whether a given year is a leap year or not.'''
+def leap(year):
+    if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+        return True
+    else:
+        return False
+year = int(input("Enter a year: "))
+print(leap(year))
