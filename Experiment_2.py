@@ -48,7 +48,7 @@ b = float(input("Enter the length of height"))
 area = 0.5*(a*b)
 print("area is: ",area)
 
-''' Write a program to convert given seconds into hours, minutes and remaining seconds.'''
+''' 7. Write a program to convert given seconds into hours, minutes and remaining seconds.'''
 
 a = int(input("Enter time in seconds: "))
 hour = a // 3600 
@@ -57,3 +57,19 @@ minute = remaining_seconds // 60
 second = remaining_seconds % 60  
 
 print(f"The time is {hour} hours, {minute} minutes, and {second} seconds")
+
+''' 8. Write a program to swap two numbers without taking additional variable.'''
+
+a=int(input("enter 1st no: "))
+b =  int(input("enter 2nd no: "))
+a,b = b,a
+print(f"swapped nos are {a},{b}")
+
+'''9. Write a program to find sum of first n natural numbers. '''
+
+n = int(input("Enter a positive integer: "))
+if n < 1:
+    print("Please enter a positive integer greater than 0.")
+else:    
+    total = n * (n + 1) // 2  
+    print(f"The sum of the first {n} natural numbers is: {total}")
