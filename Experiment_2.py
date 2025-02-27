@@ -73,3 +73,11 @@ if n < 1:
 else:    
     total = n * (n + 1) // 2  
     print(f"The sum of the first {n} natural numbers is: {total}")
+
+'''10. Write a program to print truth table for bitwise operators( & , | and ^ operators)'''
+
+a = int(input("enter 1 or 0"))
+b = int(input("enter 1 or 0"))
+print("and operator: ",a&b)
+print("or operator: ",a|b)
+print("xor operator: ",a^b)
