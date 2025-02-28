@@ -81,3 +81,23 @@ b = int(input("enter 1 or 0"))
 print("and operator: ",a&b)
 print("or operator: ",a|b)
 print("xor operator: ",a^b)
+
+'''11. Write a program to find left shift and right shift values of a given number. '''
+
+a = int(input("Enter a number to left and right shift: "))
+b = int(input("Enter the number of bits to shift: "))
+
+n = a >> b 
+k = a << b  
+print("Right shift result:", n)
+print("Left shift result:", k)
+
+'''12. Using membership operator find whether a given number is in sequence  (10,20,56,78,89) '''
+
+a = (10, 20, 56, 78, 89)
+print(a)
+num = int(input("Enter a number to check if it's in the sequence: "))
+if num in a:
+    print("numis in the sequence",num)
+else:
+    print("num is not in the sequence",num)
