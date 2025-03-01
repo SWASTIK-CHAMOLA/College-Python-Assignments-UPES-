@@ -101,3 +101,13 @@ if num in a:
     print("numis in the sequence",num)
 else:
     print("num is not in the sequence",num)
+
+''' 13. Using membership operator find whether a given character is in a string.'''
+
+a = input("enter the string")
+i = input("find character: ")
+if i in a:
+    print("i is in sequence: ",i)
+else:
+    print("not in sequence")
+    
