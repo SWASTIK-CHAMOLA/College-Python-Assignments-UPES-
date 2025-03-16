@@ -67,7 +67,8 @@ else:
     else:
         print(f"{prime} is a prime number")
 
-#Check whether given number is palindrome or not.
+'''5. Check whether given number is palindrome or not. '''
+
 num = int(input("Enter a number: "))
 original_num = num  # Store the original number
 reverse = 0
