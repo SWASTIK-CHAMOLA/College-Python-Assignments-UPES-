@@ -81,3 +81,21 @@ if original_num == reverse:
 else:
     print(f"{original_num} is not a palindrome.")
 
+''' 6. Write a program to print sum of digits. '''
+i = int(input("Enter a number: "))  
+sum = 0  
+while i > 0:  
+    sum += i % 10  
+    i = i // 10  
+print("Sum of digits:", sum)
+
+''' 7. Count and print all numbers divisible by 5 or 7 between 1 to 100.  '''
+count = 0  
+print("Numbers divisible by 5 or 7 between 1 and 100:")
+for i in range(1, 101):  
+    if i % 5 == 0 or i % 7 == 0:  
+        print(i, end=" ")
+        count += 1  
+
+print(f"\nTotal count: {count}")  
+
