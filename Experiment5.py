@@ -13,3 +13,5 @@ o = input("Enter a string: ")
 for i in o:
   if i in 'aeiou':
       print(i, end=' ')
+
+''' 2.  Count total number of vowels in a given string.'''
