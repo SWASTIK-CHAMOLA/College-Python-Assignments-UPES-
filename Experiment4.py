@@ -99,3 +99,29 @@ for i in range(1, 101):
 
 print(f"\nTotal count: {count}")  
 
+''' 8. Convert all lower cases to upper case in a string.'''
+# Convert all lower cases to upper case in a string.
+a = input("Enter the characters: ")
+b = a.upper()
+print(f"All characters in upper case are: {b}")
+
+''' 9. Print all prime numbers between 1 and 100. '''
+for num in range(1, 101):
+    if num < 2:
+        continue  # Skip numbers less than 2 (not prime)
+    is_prime = True
+    for i in range(2, int(num**0.5) + 1):  # Optimized to check up to sqrt(num)
+        if num % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(f"{num} is a prime number")
+
+  ''' 10. 10.	 Print the table for a given number:
+ 5 * 1 = 5 
+ 5 * 2 = 10………..
+'''
+t = int(input("Enter a number you want to find the table of: "))
+print(f"\nMultiplication Table of {t}:")  # Added for better output formatting
+for i in range(1, 11):
+    print(f"{t} × {i} = {t*i}")
