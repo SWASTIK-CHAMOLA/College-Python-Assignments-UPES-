@@ -5,4 +5,8 @@ UPES college BTECH CSE assignments of Python
 -**EXPERIMENT - 2**<br>
 -**EXPERIMENT - 3**<br>
 -**EXPERIMENT - 4**<br>
--**EXPERIMENT - 5**<br>
+-**EXPERIMENT - 6**<br>
+-**EXPERIMENT - 7**<br>
+-**EXPERIMENT - 8**<br>
+-**EXPERIMENT - 9**<br>
+-**EXPERIMENT - 10**<br>
